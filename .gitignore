@@ -1,0 +1,6 @@
+Garbage classification
+one-indexed-files-notrash_test.txt
+one-indexed-files-notrash_train.txt
+one-indexed-files-notrash_val.txt
+one-indexed-files.txt
+zero-indexed-files.txt
