@@ -61,7 +61,7 @@ for file in tqdm(prova):
         cardboard.append(res)
 ```
 
-    100%|██████████| 2527/2527 [00:01<00:00, 1273.36it/s]
+    100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2527/2527 [00:01<00:00, 1348.28it/s]
     
 
 Once we have the 6 lists we create the merged dataset joining them, and we create the target columns containing the correct label for each of the images.
@@ -88,7 +88,7 @@ plt.show()
 ```
 
 
-![svg](output_7_0.svg)
+![png](index_files/index_7_0.png)
 
 
 ## Input manipulation
@@ -492,124 +492,124 @@ df
   </thead>
   <tbody>
     <tr>
-      <th>593</th>
-      <td>224</td>
-      <td>224</td>
-      <td>223</td>
-      <td>222</td>
-      <td>222</td>
-      <td>222</td>
-      <td>221</td>
-      <td>220</td>
-      <td>220</td>
-      <td>220</td>
+      <th>66</th>
+      <td>232</td>
+      <td>232</td>
+      <td>231</td>
+      <td>230</td>
+      <td>229</td>
+      <td>229</td>
+      <td>229</td>
+      <td>229</td>
+      <td>228</td>
+      <td>227</td>
       <td>...</td>
-      <td>178</td>
-      <td>178</td>
-      <td>179</td>
-      <td>179</td>
-      <td>180</td>
-      <td>181</td>
-      <td>180</td>
-      <td>180</td>
-      <td>179</td>
-      <td>plastic</td>
+      <td>128</td>
+      <td>128</td>
+      <td>129</td>
+      <td>130</td>
+      <td>130</td>
+      <td>130</td>
+      <td>131</td>
+      <td>131</td>
+      <td>130</td>
+      <td>trash</td>
     </tr>
     <tr>
-      <th>1355</th>
-      <td>241</td>
-      <td>241</td>
-      <td>240</td>
-      <td>239</td>
-      <td>239</td>
-      <td>238</td>
-      <td>238</td>
-      <td>237</td>
-      <td>235</td>
-      <td>235</td>
-      <td>...</td>
-      <td>178</td>
-      <td>179</td>
-      <td>180</td>
-      <td>181</td>
-      <td>181</td>
-      <td>181</td>
-      <td>181</td>
-      <td>180</td>
-      <td>179</td>
-      <td>paper</td>
-    </tr>
-    <tr>
-      <th>704</th>
-      <td>214</td>
-      <td>214</td>
-      <td>213</td>
-      <td>211</td>
-      <td>211</td>
-      <td>204</td>
-      <td>195</td>
-      <td>195</td>
-      <td>200</td>
+      <th>1782</th>
+      <td>201</td>
+      <td>201</td>
+      <td>201</td>
+      <td>201</td>
       <td>202</td>
+      <td>202</td>
+      <td>202</td>
+      <td>202</td>
+      <td>201</td>
+      <td>201</td>
       <td>...</td>
-      <td>188</td>
-      <td>189</td>
-      <td>190</td>
-      <td>192</td>
-      <td>194</td>
-      <td>200</td>
-      <td>204</td>
-      <td>207</td>
-      <td>208</td>
+      <td>221</td>
+      <td>221</td>
+      <td>221</td>
+      <td>221</td>
+      <td>221</td>
+      <td>222</td>
+      <td>222</td>
+      <td>222</td>
+      <td>222</td>
+      <td>metal</td>
+    </tr>
+    <tr>
+      <th>943</th>
+      <td>227</td>
+      <td>227</td>
+      <td>227</td>
+      <td>227</td>
+      <td>227</td>
+      <td>227</td>
+      <td>227</td>
+      <td>227</td>
+      <td>226</td>
+      <td>226</td>
+      <td>...</td>
+      <td>168</td>
+      <td>167</td>
+      <td>168</td>
+      <td>168</td>
+      <td>169</td>
+      <td>168</td>
+      <td>168</td>
+      <td>168</td>
+      <td>168</td>
       <td>glass</td>
     </tr>
     <tr>
-      <th>2014</th>
-      <td>211</td>
-      <td>210</td>
-      <td>210</td>
-      <td>209</td>
-      <td>208</td>
-      <td>207</td>
-      <td>206</td>
-      <td>204</td>
-      <td>203</td>
-      <td>203</td>
+      <th>2279</th>
+      <td>255</td>
+      <td>255</td>
+      <td>255</td>
+      <td>255</td>
+      <td>254</td>
+      <td>254</td>
+      <td>254</td>
+      <td>254</td>
+      <td>254</td>
+      <td>254</td>
       <td>...</td>
-      <td>71</td>
-      <td>73</td>
-      <td>74</td>
-      <td>76</td>
-      <td>77</td>
-      <td>80</td>
-      <td>83</td>
-      <td>86</td>
-      <td>88</td>
-      <td>metal</td>
+      <td>138</td>
+      <td>177</td>
+      <td>177</td>
+      <td>177</td>
+      <td>177</td>
+      <td>176</td>
+      <td>175</td>
+      <td>174</td>
+      <td>172</td>
+      <td>cardboard</td>
     </tr>
     <tr>
-      <th>2074</th>
+      <th>597</th>
       <td>205</td>
       <td>205</td>
       <td>205</td>
       <td>205</td>
-      <td>204</td>
-      <td>204</td>
-      <td>203</td>
-      <td>202</td>
-      <td>203</td>
-      <td>203</td>
+      <td>205</td>
+      <td>205</td>
+      <td>205</td>
+      <td>205</td>
+      <td>205</td>
+      <td>205</td>
       <td>...</td>
-      <td>208</td>
-      <td>208</td>
-      <td>208</td>
-      <td>208</td>
-      <td>208</td>
-      <td>210</td>
-      <td>211</td>
-      <td>211</td>
-      <td>212</td>
-      <td>metal</td>
+      <td>137</td>
+      <td>139</td>
+      <td>138</td>
+      <td>138</td>
+      <td>137</td>
+      <td>137</td>
+      <td>138</td>
+      <td>137</td>
+      <td>135</td>
+      <td>plastic</td>
     </tr>
     <tr>
       <th>...</th>
@@ -636,124 +636,124 @@ df
       <td>...</td>
     </tr>
     <tr>
-      <th>732</th>
-      <td>215</td>
-      <td>215</td>
-      <td>215</td>
-      <td>215</td>
-      <td>215</td>
-      <td>213</td>
-      <td>211</td>
-      <td>210</td>
-      <td>210</td>
-      <td>210</td>
-      <td>...</td>
-      <td>206</td>
-      <td>212</td>
-      <td>213</td>
-      <td>214</td>
-      <td>215</td>
-      <td>218</td>
-      <td>217</td>
-      <td>219</td>
-      <td>222</td>
-      <td>glass</td>
-    </tr>
-    <tr>
-      <th>700</th>
-      <td>197</td>
-      <td>197</td>
-      <td>196</td>
-      <td>195</td>
-      <td>195</td>
-      <td>195</td>
-      <td>195</td>
-      <td>195</td>
-      <td>194</td>
-      <td>194</td>
-      <td>...</td>
-      <td>213</td>
-      <td>213</td>
-      <td>213</td>
-      <td>213</td>
-      <td>213</td>
-      <td>214</td>
-      <td>214</td>
-      <td>214</td>
-      <td>214</td>
-      <td>glass</td>
-    </tr>
-    <tr>
-      <th>606</th>
-      <td>218</td>
-      <td>218</td>
-      <td>217</td>
-      <td>216</td>
-      <td>215</td>
-      <td>215</td>
-      <td>214</td>
-      <td>213</td>
-      <td>211</td>
-      <td>211</td>
-      <td>...</td>
-      <td>184</td>
-      <td>183</td>
-      <td>184</td>
-      <td>185</td>
-      <td>185</td>
-      <td>185</td>
-      <td>185</td>
-      <td>185</td>
-      <td>185</td>
-      <td>plastic</td>
-    </tr>
-    <tr>
-      <th>824</th>
-      <td>227</td>
-      <td>227</td>
-      <td>227</td>
-      <td>227</td>
+      <th>2393</th>
+      <td>231</td>
+      <td>233</td>
+      <td>234</td>
+      <td>234</td>
+      <td>234</td>
+      <td>232</td>
+      <td>226</td>
       <td>225</td>
-      <td>225</td>
-      <td>224</td>
       <td>223</td>
-      <td>222</td>
-      <td>222</td>
+      <td>229</td>
       <td>...</td>
-      <td>127</td>
-      <td>128</td>
-      <td>128</td>
-      <td>128</td>
-      <td>128</td>
-      <td>130</td>
-      <td>130</td>
-      <td>127</td>
-      <td>127</td>
+      <td>81</td>
+      <td>81</td>
+      <td>82</td>
+      <td>82</td>
+      <td>81</td>
+      <td>78</td>
+      <td>78</td>
+      <td>78</td>
+      <td>78</td>
+      <td>cardboard</td>
+    </tr>
+    <tr>
+      <th>658</th>
+      <td>224</td>
+      <td>224</td>
+      <td>224</td>
+      <td>224</td>
+      <td>224</td>
+      <td>224</td>
+      <td>224</td>
+      <td>224</td>
+      <td>224</td>
+      <td>224</td>
+      <td>...</td>
+      <td>47</td>
+      <td>46</td>
+      <td>44</td>
+      <td>41</td>
+      <td>40</td>
+      <td>39</td>
+      <td>47</td>
+      <td>50</td>
+      <td>35</td>
       <td>glass</td>
     </tr>
     <tr>
-      <th>1711</th>
-      <td>255</td>
-      <td>255</td>
-      <td>255</td>
-      <td>255</td>
-      <td>255</td>
-      <td>255</td>
-      <td>255</td>
-      <td>255</td>
-      <td>255</td>
-      <td>255</td>
+      <th>109</th>
+      <td>230</td>
+      <td>230</td>
+      <td>230</td>
+      <td>230</td>
+      <td>229</td>
+      <td>229</td>
+      <td>229</td>
+      <td>229</td>
+      <td>229</td>
+      <td>229</td>
       <td>...</td>
-      <td>176</td>
-      <td>178</td>
-      <td>180</td>
-      <td>180</td>
-      <td>180</td>
+      <td>104</td>
+      <td>104</td>
+      <td>103</td>
+      <td>103</td>
+      <td>102</td>
+      <td>101</td>
+      <td>100</td>
+      <td>100</td>
+      <td>99</td>
+      <td>trash</td>
+    </tr>
+    <tr>
+      <th>1862</th>
+      <td>195</td>
+      <td>195</td>
+      <td>195</td>
+      <td>195</td>
+      <td>194</td>
+      <td>194</td>
+      <td>194</td>
+      <td>194</td>
+      <td>193</td>
+      <td>193</td>
+      <td>...</td>
+      <td>29</td>
+      <td>95</td>
+      <td>157</td>
+      <td>159</td>
+      <td>157</td>
+      <td>157</td>
+      <td>156</td>
+      <td>156</td>
+      <td>155</td>
+      <td>metal</td>
+    </tr>
+    <tr>
+      <th>790</th>
       <td>179</td>
       <td>179</td>
-      <td>178</td>
-      <td>177</td>
-      <td>paper</td>
+      <td>179</td>
+      <td>179</td>
+      <td>181</td>
+      <td>180</td>
+      <td>180</td>
+      <td>181</td>
+      <td>181</td>
+      <td>181</td>
+      <td>...</td>
+      <td>194</td>
+      <td>195</td>
+      <td>195</td>
+      <td>195</td>
+      <td>195</td>
+      <td>194</td>
+      <td>194</td>
+      <td>194</td>
+      <td>194</td>
+      <td>glass</td>
     </tr>
   </tbody>
 </table>
@@ -770,3 +770,10 @@ We split the dataset into two sections, one that we'll use for training the mode
 y = df["target"]
 df.drop("target",1, inplace=True)
 ```
+
+    c:\users\alberto\appdata\local\programs\python\python38\lib\site-packages\pandas\core\frame.py:3990: SettingWithCopyWarning: 
+    A value is trying to be set on a copy of a slice from a DataFrame
+    
+    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+      return super().drop(
+    
